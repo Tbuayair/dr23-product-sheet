@@ -1,11 +1,14 @@
 # DR23 Full Product Sheet — public download
 
-Public GitHub Pages site that hosts the InnovestX **DR23 Full Product Sheet** for
-event participants to download via link or QR code.
+Public GitHub Pages site hosting the InnovestX **DR23 Full Product Sheet** so event
+participants can download it via link or QR code.
 
 - **Live page:** https://tbuayair.github.io/dr23-product-sheet/
-- `site/index.html` — the download page
-- `site/DR23_Full_Product_Sheet.pdf` — the product sheet (11 pages)
-- `site/DR23_QR.png` / `site/DR23_QR.svg` — QR code pointing to the live page
+- `docs/index.html` — the download page
+- `docs/DR23_Full_Product_Sheet.pdf` — the product sheet (11 pages)
+- `docs/DR23_QR.png` / `docs/DR23_QR.svg` — QR code pointing to the live page
 
-Deployed automatically by `.github/workflows/deploy-pages.yml` on every push to `main`.
+## Enabling the site (one-time, ~1 min)
+Repo **Settings → Pages → Build and deployment → Source: "Deploy from a branch"**,
+then **Branch: `main` / folder: `/docs`**, and **Save**. The site goes live at the URL
+above within a minute or two. No further action is needed on later updates.
